@@ -55,18 +55,22 @@ Our workflow is documented end-to-end in `notebooks/dsc_main_group_A.ipynb`:
 5. **Submission** — five prediction files, ranked by their 5-fold cross-validated F1 score from best to worst.
 
 ## Repository structure
+
+```
+.
 ├── data/
-│   ├── dataset_A_training.csv                                      # 4,756 labelled training rows
-│   └── dataset_A_testing.csv                                       # 4,749 unlabelled test rows
+│   ├── dataset_A_training.csv                       # 4,756 labelled training rows
+│   └── dataset_A_testing.csv                        # 4,749 unlabelled test rows
 ├── models/
-├── dsc_main_group_A.ipynb                                          # the main project notebook
+├── dsc_main_group_A.ipynb                           # the main project notebook
 ├── submissions/
-│   ├── Challenge_submission-group_A_order_1.csv                    # best F1 — Logistic Regression (unscaled)
-│   ├── Challenge_submission-group_A_order_2.csv                    # Logistic Regression (scaled)
-│   ├── Challenge_submission-group_A_order_3.csv                    # XGBoost
-│   ├── Challenge_submission-group_A_order_4.csv                    # Random Forest (tuned)
-│   └── Challenge_submission-group_A_order_5.csv                    # worst F1 — Random Forest (default)
+│   ├── Challenge_submission-group_A_order_1.csv     # best F1  — Logistic Regression (unscaled)
+│   ├── Challenge_submission-group_A_order_2.csv     # Logistic Regression (scaled)
+│   ├── Challenge_submission-group_A_order_3.csv     # XGBoost
+│   ├── Challenge_submission-group_A_order_4.csv     # Random Forest (tuned)
+│   └── Challenge_submission-group_A_order_5.csv     # worst F1 — Random Forest (default)
 └── README.md
+```
 
 ## Results
 
