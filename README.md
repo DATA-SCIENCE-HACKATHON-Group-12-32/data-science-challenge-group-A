@@ -58,7 +58,7 @@ Our workflow is documented end-to-end in `notebooks/dsc_main_group_A.ipynb`:
 
 ```
 .
-├── data/
+├── dataset/
 │   ├── dataset_A_training.csv                       # 4,756 labelled training rows
 │   └── dataset_A_testing.csv                        # 4,749 unlabelled test rows
 ├── models/
